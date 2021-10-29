@@ -5,8 +5,7 @@
 
 document.addEventListener("DOMContentLoaded", () => {
   console.log("Loaded page");
-  document.getElementById("submit-btn").addEventListener("click", async (e) => {
-    e.preventDefault();
+  document.getElementById("submit-btn").addEventListener("click", async () => {
     console.log("I hear you");
     const data = {
       firstname: document.getElementById("firstname").value,
